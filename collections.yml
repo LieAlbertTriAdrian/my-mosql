@@ -1,0 +1,20 @@
+albert:
+  users:
+    :columns:
+    - id:
+      :source: _id
+      :type: TEXT
+    - email:
+      :source: email
+      :type: TEXT
+    - first_name:
+      :source: first_name
+      :type: TEXT
+    - last_name:
+      :source: last_name
+      :type: TEXT
+    - phone:
+      :source: phone
+      :type: JSON
+    :meta:
+      :table: users
